@@ -29,7 +29,9 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.aerosimo; import org.apache.logging.log4j.LogManager;
+package com.aerosimo;
+
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Log {
@@ -42,27 +44,32 @@ public class Log {
     }
 
     //Info Level Logs
-    public static void info (String message) {
+    public static void info(String message) {
         Log.info(message);
     }
+
     //Warn Level Logs
-    public static void warn (String message) {
+    public static void warn(String message) {
         Log.warn(message);
     }
+
     //Error Level Logs
-    public static void error (String message) {
+    public static void error(String message) {
         Log.error(message);
     }
+
     //Fatal Level Logs
-    public static void fatal (String message) {
+    public static void fatal(String message) {
         Log.fatal(message);
     }
+
     //Debug Level Logs
-    public static void debug (String message) {
+    public static void debug(String message) {
         Log.debug(message);
     }
+
     //Trace Level Logs
-    public static void trace (String message) {
+    public static void trace(String message) {
         Log.trace(message);
     }
 }

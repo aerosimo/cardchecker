@@ -29,7 +29,8 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.aerosimo; import com.aerosimo.Log;
+package com.aerosimo;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -46,6 +47,7 @@ class LogTest {
     void tearDown() {
         Log.info("com.aerosimo.Log Test complete");
     }
+
     @Test
     @DisplayName("Checking Info Level Logs")
     void info() {

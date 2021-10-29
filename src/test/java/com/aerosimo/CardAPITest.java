@@ -29,14 +29,13 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.aerosimo; import com.aerosimo.CardAPI;
-import com.aerosimo.CardMsg;
-import com.aerosimo.Log;
+package com.aerosimo;
+
 import org.junit.jupiter.api.*;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class CardAPITest {
 

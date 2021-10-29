@@ -29,11 +29,13 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.aerosimo; import jakarta.xml.bind.annotation.XmlRootElement;
+package com.aerosimo;
+
+import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlType;
 
 @XmlRootElement(name = "CardResponse")
-@XmlType(propOrder = {"status","cardNetwork"})
+@XmlType(propOrder = {"status", "cardNetwork"})
 public class CardMsg {
     private String status;
     private String cardNetwork;

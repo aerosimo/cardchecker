@@ -8,7 +8,7 @@
     <artifactId>CardChecker</artifactId>
     <version>1.0.0</version>
 
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>Card Validation</name>
     <description>Validating a credit card refers to the process of running a computer algorithm that performs
@@ -88,12 +88,6 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
             <version>${log4j.version}</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.sun.xml.ws/jaxws-rt -->
-        <dependency>
-            <groupId>com.sun.xml.ws</groupId>
-            <artifactId>jaxws-rt</artifactId>
-            <version>${sun.version}</version>
         </dependency>
     </dependencies>
 

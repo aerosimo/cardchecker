@@ -29,7 +29,9 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.aerosimo; import java.util.ArrayList;
+package com.aerosimo;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class CardAPI {
